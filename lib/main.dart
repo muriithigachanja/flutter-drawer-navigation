@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'app_resources/internationalization.dart';
 import 'index.dart';
 
 void main() async {
@@ -41,7 +40,6 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Test',
       localizationsDelegates: [
-        FFLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
